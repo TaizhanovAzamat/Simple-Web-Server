@@ -18,7 +18,7 @@ func main() {
 
 	for i := 0; i < numPomodoros; i++ {
 		fmt.Println("Starting work session...")
-		startTimer(breakDuration)
+		startTimer(workDuration)
 		playSound("beep.wav")
 
 		fmt.Println("Starting break session...")
