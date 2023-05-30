@@ -1,24 +1,22 @@
-# Simple-Web-Server
-Практика Golang май 2023 ЕНУ
+# Pomodoro Clock
+
+### Tier: 1-Beginner
+
+The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks - 5 minutes.
 
 
-## I'm `Aki`  
+## User Stories
 
-- How to Create a Go (Golang) based web server
-> 
-- How to run:
-> go run /cmd/main.go
-- Go to your favorite browser and enter the url: 
-> http://localhost:9000
+* User can see a timer for 25 minutes - the working session
+* After the working session is over, the User can see a timer for 5 minutes - the break session
+* User can start I pause, stop and reset the timers
 
-## Заполнить readme:
+## Bonus features
 
-### Шаг 1: Импортирование пакетов
-> "net/http" и "fmt" для работы с веб-сервером и вывода текста.
+* User can hear a sound playing when the timer hits o: 0 - denoting that the session has ended
+* User can change / customize the minutes in both sessions before starting
+* User can set a long break session of 10 minutes. This will be activated every 4th break session
 
-### Шаг 2: Создание обработчика запросов
-> Функция должна принимать два аргумента: объект ResponseWriter и объект Request.
+Useful links and resources
 
-> Внутри функции-обработчика нужно определить логику для обработки запроса и формирования ответа. Например, вы можете отправить "Привет ЕНУ" в качестве ответа на любой входящий запрос.
-
-### Шаг 3: Регистрация обработчика и запуск сервера
+* More about the Pomodoro Technique
