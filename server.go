@@ -12,9 +12,9 @@ import (
 )
 
 func main() {
-	workDuration := 1 * time.Minute  // Продолжительность работы
-	breakDuration := 1 * time.Minute // Продолжительность перерыва
-	numPomodoros := 2                // Количество повторений?
+	workDuration := 25 * time.Minute
+	breakDuration := 5 * time.Minute
+	numPomodoros := 4
 
 	for i := 0; i < numPomodoros; i++ {
 		fmt.Println("Starting work session...")
